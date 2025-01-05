@@ -25,8 +25,10 @@ contract CharityDonationsPlatform {
     //map function to map every campaign to its corresponding campaign struct
     mapping(uint => Campaign) public campaigns;
 
+    // campaigns[key] = value 
+
     //map func to map a campaign id to an array of donor struct
-    mapping(uint => Donor[]) public campaignDonors; // Fixed typo: camapignDonors -> campaignDonors
+    mapping(uint => Donor[]) public campaignDonors;
 
     // events
     event CampaignCreated(uint id, string title, address owner);
