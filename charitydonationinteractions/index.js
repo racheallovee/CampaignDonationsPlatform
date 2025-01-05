@@ -18,7 +18,7 @@ const createContractInstance = (contractAddress, contractAbi) => {
   return contract;
 };
 
-// const contractAddress = "CONTRACT_ADDRESS_HERE"; 
+// const contractAddress = "CONTRACT_ADDRESS_HERE";
 // const contract = createContractInstance(
 //   contractAddress,
 //   charityDonationsAbi.abi
